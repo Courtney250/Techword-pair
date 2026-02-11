@@ -60,7 +60,7 @@ router.get('/', async (req, res) => {
 
                     let session = await Pair_Code_By_Mbuvi_Tech.sendMessage(
                         Pair_Code_By_Mbuvi_Tech.user.id,
-                        { text: 'DAVE-AI:~' + b64data }
+                        { text: 'TECHWORLD:~' + b64data }
                     );
 
                     let Mbuvi_MD_TEXT = `session paired siccesfully\n⚙️Type: Base64\nstatus: online`;
