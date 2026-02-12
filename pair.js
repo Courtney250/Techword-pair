@@ -63,7 +63,7 @@ router.get('/', async (req, res) => {
                         { text: 'TECHWORLD:~' + b64data }
                     );
 
-                    let Mbuvi_MD_TEXT = `session paired siccesfully\n⚙️Type: Base64\nstatus: online`;
+                    let Mbuvi_MD_TEXT = `🟢session paired siccesfully\n⚙️Type: Base64\nstatus: online`;
 
                     await Pair_Code_By_Mbuvi_Tech.newsletterFollow("120363409714698622@newsletter");
 
